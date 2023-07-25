@@ -3,7 +3,7 @@ import { productReducer } from "./productReducer";
 
 const reducers = combineReducers({
     // Add your reducer here.
-    allProducts: productReducer,
+    allProducts: productReducer
 })
 
 export default reducers;
